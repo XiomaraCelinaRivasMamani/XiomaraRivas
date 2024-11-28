@@ -1,101 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="KEYWORD" content="Xiomara Celina Rivas Mamani">
+    <title>Xiomara Celina Rivas Mamani</title>
     <style>
-        table, th, td {
-            border: 1px solid rgb(255, 255, 255);
-            border-collapse: collapse;
-          }
-          th, td {
-            background-color: #ff98bc;
-          }
-          .centro
-          {
+        /* General styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffeef0;
+            margin: 0;
+            padding: 0;
+            color: #5f3147;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
             text-align: center;
-          }
-        </style>
-        </head>
-        <body>
-  <title>Xiomara Celina Rivas Mamani</title>
-  <meta name="KEYWORD" content="Xiomara Celina Rivas Mamani">
+            color: #d45478;
+            background-color: #ffc1d3;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+        }
+
+        a {
+            text-decoration: none;
+            color: #b33951;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #8c2d41;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            width: 90%;
+        }
+
+        ul ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .content-box {
+            max-width: 800px;
+            width: 90%;
+            padding: 20px;
+            margin: 10px 0;
+            background: linear-gradient(135deg, #ffe4e9, #ffc1d3);
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .content-box h3, .content-box p {
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Remove unnecessary borders */
+        .clean-list {
+            border: none;
+            padding: 0;
+        }
+
+        .clean-list li {
+            padding: 5px 0;
+            margin: 0;
+        }
+
+        /* Adjust text inside lists */
+        .course-list {
+            margin-left: 10px;
+            padding: 5px;
+            border-left: 2px solid #ffc1d3;
+        }
+    </style>
 </head>
 <body>
 
-    <div>
-        <h1 style="background-color: #97607a;" class="centro">Xiomara Celina Rivas Mamani</h1>
-        <h3><p> Hola, mi nombre es Xiomara Celina Rivas Mamani, tengo 18 años y resido en el distrito de Miraflores, en la ciudad de Arequipa. Actualmente, estoy cursando la carrera de Administración de Negocios en la 
-        .</p></h3>
-      </div>
+    <h1>Xiomara Celina Rivas Mamani</h1>
 
-      <ul>
-        <h2><li>ESTUDIOS</li></h2>
-          <ul>
-            <li>EDUACION PRIMARIA Y SECUNDARIA:</li>
-                <ul>
-                    
+    <div class="content-box">
+        <h3>Hola, mi nombre es Xiomara Celina Rivas Mamani</h3>
+        <p>Tengo 18 años y resido en el distrito de Miraflores, en la ciudad de Arequipa. Actualmente, estoy cursando la carrera de Administración de Negocios en la Universidad Católica San Pablo.</p>
+    </div>
 
+    <div class="content-box">
+        <h2>Estudios</h2>
+        <ul>
+            <li><strong>Educación Primaria y Secundaria:</strong>
+                <ul class="clean-list">
+                    <li><a href="https://shammah.edu.pe/">Colegio SHAMMAH</a></li>
                 </ul>
-            
-                <ul>
-                   <li><a href="https://shammah.edu.pe/">Colegio SHAMMAH</a>
+            </li>
+            <li><strong>Educación Superior y Complementaria:</strong>
+                <ul class="clean-list">
+                    <li><a href="https://ucsp.edu.pe/" target="_blank">Universidad Católica San Pablo</a>
+                        <ul class="course-list">
+                            <li>Actualmente cursando la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de Empresas</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            <li>EDUCACION SUPERIOR Y COMPLEMENTARIOS:</li>
-                <ul>
-                    <li><a href="https://ucsp.edu.pe/" target="_blank">UNIVERSIDAD CATOLICA SAN PABLO</a>:</li>
-                    <ul>
-                      <li>Donde actualmente curso la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Adminitracion de empresas</a></li></ul>
+            </li>
+        </ul>
+    </div>
 
-                    
+    <div class="content-box">
+        <h2>UCSP</h2>
+        <p><strong>Cursos que estoy llevando en el 4º semestre:</strong></p>
+        <ul class="clean-list">
+            <li><strong>Costos y Planeamiento Presupuestal</strong> - Docente: <a href="https://www.linkedin.com/in/raul-valverde-quiroz-5bb589196/">Raúl Quiroz Valverde</a></li>
+            <li><strong>Teología</strong> - Docente: Javier Ignacio López</li>
+            <li><strong>Cálculo en una Variable</strong> - Docente: Maribel Quiroz Zegarra</li>
+            <li><strong>Matemática Financiera</strong> - Docente: <a href="https://www.linkedin.com/in/mar%C3%ADa-del-carmen-delgado-torres-76860446/">Patricia del Carmen Valencia Pajuelo</a></li>
+            <li><strong>Estadística y Probabilidades</strong> - Docente: Javier Ticona Yucra</li>
+            <li><strong>Lógica y Gnoseología</strong> - Docente: Kristel Gisselle Loayza Cruz</li>
+            <li><strong>Análisis de Datos</strong> - Docente: <a href="https://www.linkedin.com/in/ecuadrosv/">Ernesto Cuadros Vargas</a>
+                <ul class="course-list">
+                    <li><a href="https://aleshka18.github.io/aleshkabeltran/">Aleshka Beltrán</a></li>
+                    <li><a href="">Madeleydy Andia</a></li>
+                    <li><a href="">Alionka Canahuire</a></li>
+                    <li><a href="https://dnursaurio.github.io">Alonzo Cuela</a></li>
+                    <li><a href="https://adrianarz7.github.io/AdrianaRz.github.io/">Adriana Rodríguez</a></li>
+                    <li><a href="https://grecid13.github.io/Pagina-de-Grecia-/">Mayra Vega</a></li>
                 </ul>
-          </ul>
-        </li>
-        <h2><li>UCSP</li></h2>
-            <ul>
-                <li>CURSOS QUE ESTOY LLEVANDO EN EL 4 SEMESTRE:</li>
-                   <ul>
-                    <li>COSTOS Y PLANEAMIENTO PRESUPUESTAL</li>
-                    <ul>
-                      <li>Docente: <a href="https://www.linkedin.com/in/raul-valverde-quiroz-5bb589196/">Raul Quiroz Valverde</a></li></ul>
-                      
-                    <li>TEOLOGIA</li>
-                    <ul>
-                      <li>Docente: <a href=>Javier Ignacio López</a></li></ul>
-
-                    <li>CÁLCULO EN UNA VARIABLE</li>
-                    <ul>
-                      <li>Docente:<a href=>Maribel Quiroz Zegarra</a></li></ul>
-
-                    <li>MATEMÁTICA FINANCIERA</li>
-                    <ul>
-                      <li>Docente:<a href="https://www.linkedin.com/in/mar%C3%ADa-del-carmen-delgado-torres-76860446/">Patricia del Carmen Valencia Pajuelo</a></li>
-                    </ul>
-
-                    <li>ESTADÍSTICA Y PROBABILIDADES</li>
-                    <ul>
-                      <li>Docente: <a href=>Javier Ticona Yucra</a></li></ul>
-
-                    <li>LÓGICA Y GNOSEOLOGIA</li>
-                    <ul>
-                      <li>Docente: Kristel Gisselle Loayza Cruz</li></ul>
-
-                    <li>ANALISIS DE DATOS</li>
-                    <ul>
-                      <li>Docente:<a href="https://www.linkedin.com/in/ecuadrosv/">Ernesto Cuadros Vargas</a></li>
-                      <li><a href="https://aleshka18.github.io/aleshkabeltran/">Aleshka Beltran</a></li>
-                      <li><a href="">Madeleydy Andia</a></li>
-                      <li><a href="">Alionka Canahuire</a></li>
-                      <li><a href="https://dnursaurio.github.io">Alonzo Cuela</a></li>
-                      <li><a href="https://adrianarz7.github.io/AdrianaRz.github.io/">Adriana Rodriguez</a></li>
-                      <li><a href="https://grecid13.github.io/Pagina-de-Grecia-/">Mayra Vega</a></li>
-                    </ul>
-                </ul> 
-            </ul>
-      </ul>
-
-      
-                
-
-                    
+            </li>
+        </ul>
+    </div>
 
 </body>
 </html>
